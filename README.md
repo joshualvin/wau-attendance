@@ -17,7 +17,7 @@ Plain PHP + MySQL; no build step.
 2. Replace `config.php` with literal values (the local copy reads wau-erp's secrets file, which won't be next to it on the server):
    ```php
    <?php return ['db_host' => '127.0.0.1', 'db_port' => 3306, 'db_name' => 'hr',
-                 'db_user' => 'claude_helper', 'db_pass' => '…', 'timezone' => 'Asia/Jakarta'];
+                 'db_user' => 'your_db_user', 'db_pass' => '…', 'timezone' => 'Asia/Jakarta'];
    ```
 3. Open `http://192.168.20.102/wau-attendance/` from any computer on the network.
 

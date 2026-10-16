@@ -1,5 +1,5 @@
 -- Created automatically by api.php on first run; kept here to run by hand if preferred.
--- Written for MySQL 5.1 and later (the server at 192.168.20.102 runs 5.1.43).
+-- Written for MySQL 5.1 and later.
 CREATE TABLE IF NOT EXISTS company_settings (
   id TINYINT UNSIGNED NOT NULL PRIMARY KEY,
   name VARCHAR(80) NOT NULL,
